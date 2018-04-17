@@ -1,0 +1,6 @@
+user-registration:
+  image: tomcat
+  ports:
+    - "8080:8080"
+  volumes:
+     - ./dist/user-registration-application-0.0.1-SNAPSHOT.war:/usr/local/tomcat/webapps/user-registration-application-0.0.1-SNAPSHOT.war
